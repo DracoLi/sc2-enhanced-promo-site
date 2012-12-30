@@ -1,0 +1,71 @@
+# [object Object] (undefined, #undefined)
+# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=152086601530572&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3d6a9108%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff10862fb1c%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fsc2enhanced&node_type=link&width=450&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
+ (undefined, #undefined)
+# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=152086601530572&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3d6a9108%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff10862fb1c%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fsc2enhanced&node_type=link&width=450&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
+ (undefined, #undefined)
+# Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App's settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App's domains. (undefined, #undefined)
+# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=152086601530572&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3d6a9108%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff10862fb1c%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fsc2enhanced&node_type=link&width=450&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
+ (undefined, #undefined)
+# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=152086601530572&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3d6a9108%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff10862fb1c%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fsc2enhanced&node_type=link&width=450&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
+ (undefined, #undefined)
+# Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://www.facebook.com/plugins/like.php?api_key=152086601530572&locale=en_US&sdk=joey&channel_url=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter.php%3Fversion%3D18%23cb%3Df3d6a9108%26origin%3Dhttp%253A%252F%252Flocalhost%253A3501%252Ff10862fb1c%26domain%3Dlocalhost%26relation%3Dparent.parent&href=http%3A%2F%2Fwww.facebook.com%2Fsc2enhanced&node_type=link&width=450&layout=button_count&colorscheme=light&show_faces=false&send=false&extended_social_context=false. Domains, protocols and ports must match.
+ (undefined, #undefined)
+CACHE MANIFEST
+
+# Time: Sun Dec 30 2012 10:48:16 GMT-0500 (EST)
+# This manifest was created by confess.js, http://github.com/jamesgpearce/confess
+#
+# Retrieved URL: http://localhost:3501/
+# User-agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#
+# Config:
+#  task: appcache
+#  userAgent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Chrome/17.0.963.12 Safari/535.11
+#  wait: 0
+#  consolePrefix: #
+#  verbose: true
+#  appcache:
+#   urlsFromDocument: true
+#   urlsFromRequests: false
+#   cacheFilter: .*
+#   networkFilter: null
+#  url: http://localhost:3501
+#  configFile: /usr/local/Cellar/node/0.8.9/lib/node_modules/yeoman/lib/support/confess.json
+
+CACHE:
+http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
+http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js
+http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js
+http://connect.facebook.net/en_US/all.js#xfbml=1&appId=152086601530572
+http://d1l6p2sc9645hc.cloudfront.net/tracker.js
+http://data.gosquared.com/pv?a=GSN-230772-A&cs=UTF-8&cd=32&fl=-&je=0&la=en-ca&sw=1440&sh=900&dm=localhost&pa=%2F&pt=&pr=http%3A&po=3501&pl=0&tl=205&ri=0&ru=-&ui=1140305902&re=0&vi=1&pv=1&lv=0&vw=400&vh=300&dw=1330&dh=4390&st=0&sl=0&tv=4.0&bs=100110010101111
+http://localhost:3501/images/269286d7.rankingsBG.jpg
+http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
+http://localhost:3501/images/661913e4.facebook_icon.png
+http://localhost:3501/images/72007146.black-iphone.png
+http://localhost:3501/images/82768978.gameBG.jpg
+http://localhost:3501/images/961e85ec.spaceBG.jpg
+http://localhost:3501/images/9a539bb2.profileBG.jpg
+http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
+http://localhost:3501/images/c6776d11.landingBG.jpg
+http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png
+http://vjs.zencdn.net/c/video-js.css
+http://vjs.zencdn.net/c/video.js
+http://www.google-analytics.com/ga.js
+http://www.parsecdn.com/js/parse-1.1.15.min.js
+images/e65ce544.dot.png
+scripts/f187cf59.amd-app.js
+scripts/vendor/cf69c6f2.modernizr.min.js
+scripts/vendor/fd237d66.jquery.parallax-1.1.3.js
+styles/0d9c2a8a.main.css
+
+NETWORK:
+*

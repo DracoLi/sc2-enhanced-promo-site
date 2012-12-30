@@ -1,6 +1,9 @@
 @import "compass_twitter_bootstrap";
 
-h1 { text-shadow: 0 0 15px #F10000; }
+h1 {
+    text-shadow: 0 0 10px #24F02D;
+    line-height: 60px;
+}
 
 h2 {
     font-size: 22px;
@@ -67,15 +70,13 @@ p {
 }
 
 .vid {
-    background: url(/images/black-iphone.png) 50% 0 no-repeat fixed;
-    height: 980px;
-    margin: 0 auto;
-    padding: 0;
     position: relative;
+    width: 300px;
 
     .video-js {
-        left: 35px;
-        top: 100px;
+        position: absolute;
+        left: 25px;
+        top: 105px;
     }
 }
 
@@ -90,8 +91,6 @@ p {
     margin: 0 auto;
     padding: 0;
 
-    .story { width: 980px; }
-
     .story-content {
         text-align: center;
         margin-top: 150px;
@@ -100,7 +99,7 @@ p {
             text-shadow: 0px 0px 5px #B8FF00;
             font-size: 40px;
         }
-        h2 {
+        h2 a {
             font-size: 30px;
             color: #FFDE57;
             text-transform: uppercase;
@@ -109,9 +108,7 @@ p {
     }
 
     .vid {
-        background-position-y: 270px;
-
-        .video-js { left: 37.2%; }
+        margin: 0 auto;
     }
 }
 
@@ -132,13 +129,9 @@ p {
     }
 
     .vid {
-        background-position-y: 60px;
-        background-position-x: 80%;
-    }
-
-    .video-js {
-        left: 16.7%;
-        top: 180px;
+        float: right;
+        margin-right: 220px;
+        margin-top: 80px;
     }
 }
 
@@ -159,13 +152,9 @@ p {
     }
 
     .vid {
-        background-position-y: 60px;
-        background-position-x: 80%;
-    }
-
-    .video-js {
-        left: 24.6%;
-        top: 185px;
+        float: right;
+        margin-right: 300px;
+        margin-top: 100px;
     }
 }
 
@@ -187,13 +176,9 @@ p {
     }
 
     .vid {
-        background-position-y: 60px;
-        background-position-x: 30%;
-    }
-
-    .video-js {
-        top: 190px;
-        left: 25.5%;
+        float: left;
+        margin-left: 340px;
+        margin-top: 120px;
     }
 }
 
@@ -285,7 +270,6 @@ p {
 
 .story {
     margin: 0 auto;
-    min-width: 980px;
     overflow: hidden;
     color: #c4fff9;
     position: relative;

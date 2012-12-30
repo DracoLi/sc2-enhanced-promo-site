@@ -1,13 +1,9 @@
 define [], ->
     # Set up parallax
     $('#landing').parallax "50%", 1
-    $('#landing .landing-vid').parallax "50%", 1.0
     $('#game').parallax "50%", 0.1
-    $('#game .vid').parallax "30%", 1
     $('#profile').parallax "50%", 0.1
-    $('#profile .vid').parallax "70%", 1
     $('#rankings').parallax "50%", 0.1
-    $('#rankings .vid').parallax "80%", 1
 
     # Set up navigation
     $('#nav a').tooltip

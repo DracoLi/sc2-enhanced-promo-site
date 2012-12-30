@@ -1,4 +1,7 @@
 require 'sinatra'
+configure :production do
+    require 'newrelic_rpm'
+end
 
 set :public_folder, File.dirname(__FILE__) + '/dist'
 

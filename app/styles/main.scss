@@ -1,0 +1,293 @@
+@import "compass_twitter_bootstrap";
+
+h1 { text-shadow: 0 0 15px #F10000; }
+
+h2 {
+    font-size: 22px;
+    color: #3EE2CE;
+    text-shadow: 1px 1px 2px black;
+}
+
+h1, h2, h3, .imp {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.left { float: left; }
+.right { float: right; }
+
+.video-js .vjs-tech {
+    left: 0;
+}
+
+#nav{
+    list-style: none;
+    position: fixed;
+    right: 20px;
+    top: 12px;
+    z-index: 1000;
+
+    li { margin: 0 0 15px 0; }
+}
+
+#fb-global {
+    position: fixed;
+    left: 40px;
+    top: 10px;
+    z-index: 999999;
+}
+
+#facebook-section {
+    width: 280px;
+    margin: 0 auto;
+
+    .words {
+        float: left;
+        text-align: right;
+        font-size: 18px;
+
+        .line-two { margin-top: 5px; }
+    }
+
+    #facebook {
+        margin-left: 10px;
+        float: left;
+        background: url(/images/facebook_icon.png) 0 0 no-repeat;
+        width: 66px;
+        height: 50px;
+        display: block;
+
+        &:hover {
+            background-position-y: -50px;
+        }
+    }
+}
+
+.vid {
+    background: url(/images/black-iphone.png) 50% 0 no-repeat fixed;
+    height: 980px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+
+    .video-js {
+        left: 35px;
+        top: 100px;
+    }
+}
+
+.background {
+    box-shadow: 0px 0px 35px 10px #140E9C;
+    overflow: hidden;
+}
+
+#landing {
+    background: url(/images/landingBG.jpg) 50% 0 no-repeat fixed;
+    height: 900px;
+    margin: 0 auto;
+    padding: 0;
+
+    .story { width: 980px; }
+
+    .story-content {
+        text-align: center;
+        margin-top: 150px;
+
+        h1 {
+            text-shadow: 0px 0px 5px #B8FF00;
+            font-size: 40px;
+        }
+        h2 {
+            font-size: 30px;
+            color: #FFDE57;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px #DD2C00;
+        }
+    }
+
+    .vid {
+        background-position-y: 270px;
+
+        .video-js { left: 37.2%; }
+    }
+}
+
+#profile {
+    background: url(/images/profileBG.jpg) 50% 0 no-repeat fixed;
+    height: 980px;
+    margin: 0 auto;
+    padding: 0;
+
+    .story-content {
+        width: 500px;
+        margin-top: 230px;
+        text-align: left;
+        background-color: rgba(4, 5, 36, 0.8);
+        border-radius: 2px;
+        padding: 10px;
+        padding-left: 70px;
+    }
+
+    .vid {
+        background-position-y: 60px;
+        background-position-x: 80%;
+    }
+
+    .video-js {
+        left: 16.7%;
+        top: 180px;
+    }
+}
+
+#rankings {
+    background: url(/images/rankingsBG.jpg) 50% 0 no-repeat fixed;
+    height: 980px;
+    margin: 0 auto;
+    padding: 0;
+
+    .story-content {
+        width: 500px;
+        margin-top: 230px;
+        text-align: left;
+        background-color: rgba(4, 5, 36, 0.8);
+        border-radius: 2px;
+        padding: 10px;
+        padding-left: 70px;
+    }
+
+    .vid {
+        background-position-y: 60px;
+        background-position-x: 80%;
+    }
+
+    .video-js {
+        left: 24.6%;
+        top: 185px;
+    }
+}
+
+#game {
+    background: url(/images/gameBG.jpg) 50% 0 no-repeat fixed;
+    height: 980px;
+    margin: 0 auto;
+    padding: 0;
+
+    .story-content {
+        float: right;
+        width: 650px;
+        text-align: right;
+        background-color: rgba(4, 5, 36, 0.8);
+        border-radius: 2px;
+        padding: 5px 0;
+        padding-right: 50px;
+        margin-top: 105px;
+    }
+
+    .vid {
+        background-position-y: 60px;
+        background-position-x: 30%;
+    }
+
+    .video-js {
+        top: 190px;
+        left: 25.5%;
+    }
+}
+
+#buy {
+    background: url(/images/spaceBG.jpg) 50% 0 no-repeat fixed;
+    height: 550px;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1330px;
+
+    .story { text-align: center; }
+
+    .story-content {
+        display: inline-block;
+        position: relative;
+        margin-top: 85px;
+
+        h1 {
+            font-size: 60px;
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 30px;
+        }
+
+        #get_notified {
+            margin-top: 30px;
+            display: inline-block;
+
+            label {
+                text-align: left;
+                color: #98E9DD;
+                font-weight: bold;
+                font-size: 20px;
+                margin-bottom: 0;
+            }
+
+            .controls {
+                display: inline-block;
+                margin-top: 10px;
+
+                #emailInput { width: 200px; }
+                .input-prepend { float: left; }
+                .submit {
+                    float: left;
+                    margin-left: 5px;
+                }
+
+                .result-msg {
+                    clear: both;
+                    text-align: left;
+                    color: #FC4141;
+                    &.success { color: #00E900; }
+                }
+            }
+        }
+    }
+
+    .feature-list {
+        text-align: left;
+
+        h2 { font-size: 30px; }
+        ul {
+            list-style: none;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        li {
+            font-size: 25px;
+            margin-bottom: 40px;
+            text-shadow: 3px 3px 0px #010013;
+        }
+
+        .star {
+            margin-right: 15px;
+            color: #1A1A1A;
+            text-shadow: 0px 0px 6px #00D6FF;
+            font-size: 50px;
+            display: inline-block;
+        }
+    }
+
+    .buy-content {
+        margin-left: 80px;
+    }
+}
+
+.story {
+    margin: 0 auto;
+    min-width: 980px;
+    overflow: hidden;
+    color: #c4fff9;
+    position: relative;
+}
+

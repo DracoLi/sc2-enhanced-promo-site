@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+
+
+        <script src="scripts/vendor/modernizr.min.js"></script>
+        <script src="http://www.parsecdn.com/js/parse-1.1.15.min.js"></script>
+    </head>
+    <body>
+
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+
+        <!-- Dots navigation -->
+        <ul id="nav">
+            <li><a href="#landing" rel="tooltip" data-original-title="SC2Enhanced"><img src="images/dot.png" alt="Link" /></a></li>
+            <li><a href="#profile" rel="tooltip" data-original-title="Profile"><img src="images/dot.png" alt="Link" /></a></li>
+            <li><a href="#rankings" rel="tooltip" data-original-title="Rankings"><img src="images/dot.png" alt="Link" /></a></li>
+            <li><a href="#game" rel="tooltip" data-original-title="Game"><img src="images/dot.png" alt="Link" /></a></li>
+            <li><a href="#buy" rel="tooltip" data-original-title="Get"><img src="images/dot.png" alt="Link" /></a></li>
+        </ul>
+        <div id="fb-global" class="fb-like" data-href="http://www.facebook.com/sc2enhanced" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+
+        <div id="landing" class="background" data-type="background" data-speed="10">
+            <div class="story">
+                <div class="story-content inner">
+                    <h1>The Missing StarCraft 2 App.</h1>
+                    <h2>Is now here.</h2>
+                </div>
+                <div class="landing-vid vid">
+                    <video id="landingVideo" class="video-js vjs-default-skin" autoplay loop
+                      preload="auto" width="255" height="383" poster="images/search.png">
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/searchVid.mp4" type='video/mp4'>
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/searchVid.ogv" type='video/ogg'>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div id="profile" class="background" data-type="background" data-speed="10">
+            <div class="story">
+                <div class="empty-block"></div>
+                <div class="story-content left">
+                    <h1>Profile Browser</h1>
+                    <h2>View anyone's full StarCraft profile</h2>
+                </div>
+
+                <div class="profile-vid vid" data-start-top="80" data-speed=".3">
+                    <video id="profileVideo" class="video-js vjs-default-skin" controls
+                      preload="metadata" width="255" height="383" poster="images/profile.png">
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/profileVid.mp4" type='video/mp4'>
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/profileVid.ogv" type='video/ogg'>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div id="game" class="background" data-type="background" data-speed="10">
+            <div class="story">
+                <div class="story-content right">
+                    <h1>SC2 Database</h1>
+                    <h2>A beautiful updated database for everything StarCraft.</h2>
+                </div>
+                <div class="game-vid vid" data-start-top="90">
+                    <video id="gameVideo" class="video-js vjs-default-skin" controls
+                      preload="metadata" width="255" height="383" poster="images/7e5e733c.game.png">
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/gameVid.mp4" type='video/mp4'>
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/gameVid.ogv" type='video/ogg'>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div id="rankings" class="background" data-type="background" data-speed="10">
+            <div class="story">
+                <div class="story-content left">
+                    <h1>Global Ladder Rankings</h1>
+                    <h2>Follow the best in the game</h2>
+                </div>
+                <div class="rankings-vid vid" data-start-top="85">
+                    <video id="rankingsVideo" class="video-js vjs-default-skin" controls
+                      preload="metadata" width="255" height="383" poster="images/rankings.png">
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/rankingsVid.mp4" type='video/mp4'>
+                      <source src="https://s3.amazonaws.com/com.sc2enhanced.videos/rankingsVid.ogv" type='video/ogg'>
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div id="buy" class="background" data-type="background" data-speed="10">
+            <div class="story">
+                <div class="story-content">
+                    <div class="feature-list left">
+                        <ul>
+                            <li><span class="star">&#9733</span>StarCraft 2 Profiles</li>
+                            <li><span class="star">&#9733</span>Search Players</li>
+                            <li><span class="star">&#9733</span>Global Ladder Rankings</li>
+                            <li><span class="star">&#9733</span>SC2 Database</li>
+                            <li><span class="star">&#9733</span>News Feed</li>
+                        </ul>
+                    </div>
+
+                    <div class="buy-content left">
+                        <h1>Coming Feb 2013</h1>
+                        <h2>On a secret day</h2>
+                        <form action="#" id="get_notified" name="email_form">
+                            <label>Notify me via Email</label>
+                            <div class="control-group">
+                              <div class="controls">
+                                <div class="input-prepend">
+                                  <span class="add-on"><i class="icon-envelope"></i></span>
+                                  <input class="span2" id="emailInput" type="text" name="email">
+                                </div>
+                                <button class="btn submit"><i class="icon-ok"></i></button>
+                                <div class="result-msg"></div>
+                              </div>
+                            </div>
+                        </form>
+
+                        <div id="facebook-section" class="clearfix">
+                            <div class="words">
+                                <div class="line-one">Questions, Suggestions?</div>
+                                <div class="line-two">Find us on</div>
+                            </div>
+                            <a id="facebook" href="http://www.facebook.com/sc2enhanced" target="_blank"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="scripts/vendor/jquery.min.js"><\/script>')</script>
+        <script type="text/javascript" src="scripts/vendor/jquery.parallax-1.1.3.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js"></script>
+        <script src="http://vjs.zencdn.net/c/video.js"></script>
+
+        <div id="fb-root"></div>
+        <script>
+        // Load the SDK Asynchronously
+        (function(d, s, id){
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=152086601530572";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- Google Analytics -->
+        <script>
+            var _gaq=[['_setAccount','UA-37321459-1'],['_trackPageview']];
+            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+            s.parentNode.insertBefore(g,s)}(document,'script'));
+        </script>
+
+        <!-- start Mixpanel -->
+        <script type="text/javascript">
+            (function(e,b){if(!b.__SV){var a,f,i,g;window.mixpanel=b;a=e.createElement("script");a.type="text/javascript";a.async=!0;a.src=("https:"===e.location.protocol?"https:":"http:")+'//cdn.mxpnl.com/libs/mixpanel-2.2.min.js';f=e.getElementsByTagName("script")[0];f.parentNode.insertBefore(a,f);b._i=[];b.init=function(a,e,d){function f(b,h){var a=h.split(".");2==a.length&&(b=b[a[0]],h=a[1]);b[h]=function(){b.push([h].concat(Array.prototype.slice.call(arguments,0)))}}var c=b;"undefined"!==
+typeof d?c=b[d]=[]:d="mixpanel";c.people=c.people||[];c.toString=function(b){var a="mixpanel";"mixpanel"!==d&&(a+="."+d);b||(a+=" (stub)");return a};c.people.toString=function(){return c.toString(1)+".people (stub)"};i="disable track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config people.set people.increment people.append people.track_charge".split(" ");for(g=0;g<i.length;g++)f(c,i[g]);b._i.push([a,e,d])};b.__SV=1.2}})(document,window.mixpanel||
+[]);
+mixpanel.init("fbdb29d7402a9f1c19b0da92c72862d2");
+        </script>
+        <!-- end Mixpanel -->
+
+        <!-- Go Sqaured -->
+        <script type="text/javascript">
+          var GoSquared = {};
+          GoSquared.acct = "GSN-230772-A";
+          (function(w){
+            function gs(){
+              w._gstc_lt = +new Date;
+              var d = document, g = d.createElement("script");
+              g.type = "text/javascript";
+              g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+              var s = d.getElementsByTagName("script")[0];
+              s.parentNode.insertBefore(g, s);
+            }
+            w.addEventListener ?
+              w.addEventListener("load", gs, false) :
+              w.attachEvent("onload", gs);
+          })(window);
+        </script>
+
+    <!-- build:js scripts/amd-app.js -->
+    <script data-main="scripts/main" src="scripts/vendor/require.js"></script>
+    <!-- endbuild -->
+</body>
+</html>

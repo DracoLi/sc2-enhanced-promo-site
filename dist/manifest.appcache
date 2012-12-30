@@ -1,8 +1,7 @@
 # [object Object] (undefined, #undefined)
-# Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App's settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App's domains. (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Sun Dec 30 2012 12:59:52 GMT-0500 (EST)
+# Time: Sun Dec 30 2012 16:53:58 GMT-0500 (EST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -28,8 +27,6 @@ http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
 http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js
 http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js
 http://connect.facebook.net/en_US/all.js#xfbml=1&appId=152086601530572
-http://d1l6p2sc9645hc.cloudfront.net/tracker.js
-http://data.gosquared.com/pv?a=GSN-230772-A&cs=UTF-8&cd=32&fl=-&je=0&la=en-ca&sw=1440&sh=900&dm=localhost&pa=%2F&pt=SC2%20Enhanced%20HD%20%7C%20The%20Missing%20StarCraft%202%20App&pr=http%3A&po=3501&pl=0&tl=151&ri=0&ru=-&ui=706106386&re=0&vi=1&pv=1&lv=0&vw=400&vh=300&dw=1330&dh=4390&st=0&sl=0&tv=4.0&bs=100110010101111
 http://localhost:3501/images/269286d7.rankingsBG.jpg
 http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
 http://localhost:3501/images/661913e4.facebook_icon.png
@@ -38,15 +35,6 @@ http://localhost:3501/images/961e85ec.spaceBG.jpg
 http://localhost:3501/images/9a539bb2.profileBG.jpg
 http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
 http://localhost:3501/images/c6776d11.landingBG.jpg
-http://static.ak.fbcdn.net/rsrc.php/v2/yA/x/IE9JII6Z1Ys.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yD/x/Cou7n-nqK52.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yH/x/eIpbnVKI9lR.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yJ/x/jKEcVPZFk-2.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yL/x/i_oIVTKMYsL.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yP/x/bSOHtKbCGYI.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yR/x/8YeTNIlTZjm.png
-http://static.ak.fbcdn.net/rsrc.php/v2/yc/x/3rhSv5V8j3o.gif
-http://static.ak.fbcdn.net/rsrc.php/v2/yl/x/FGFbc80dUKj.png
 http://vjs.zencdn.net/c/video-js.css
 http://vjs.zencdn.net/c/video.js
 http://www.google-analytics.com/ga.js
@@ -55,7 +43,7 @@ images/e65ce544.dot.png
 scripts/4d8cbeee.amd-app.js
 scripts/vendor/cf69c6f2.modernizr.min.js
 scripts/vendor/fd237d66.jquery.parallax-1.1.3.js
-styles/b87e3e21.main.css
+styles/c6e7249f.main.css
 
 NETWORK:
 *

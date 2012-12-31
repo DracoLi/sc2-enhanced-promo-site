@@ -1,5 +1,9 @@
 @import "compass_twitter_bootstrap";
 
+body {
+    background-color: #11131D;
+}
+
 h1 {
     text-shadow: 0 0 10px #407FCF;
     line-height: 60px;
@@ -105,6 +109,7 @@ p {
     height: 900px;
     margin: 0 auto;
     padding: 0;
+    box-shadow: none;
 
     .story-content {
         text-align: center;

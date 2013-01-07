@@ -94,7 +94,7 @@ p {
 
     .video-js {
         position: absolute;
-        left: 25px;
+        left: 24px;
         top: 105px;
     }
 }
@@ -116,7 +116,6 @@ p {
         margin-top: 150px;
 
         h1 {
-            text-shadow: 0px 0px 5px #B8FF00;
             font-size: 40px;
         }
         h2 a {
@@ -150,8 +149,8 @@ p {
     }
 
     .vid {
-        float: right;
-        margin-right: 220px;
+        float: left;
+        margin-left: 20%;
         margin-top: 80px;
     }
 }
@@ -174,8 +173,8 @@ p {
     }
 
     .vid {
-        float: right;
-        margin-right: 12%;
+        float: left;
+        margin-left: 23%;
         margin-top: 100px;
     }
 }
@@ -207,8 +206,8 @@ p {
 }
 
 #buy {
-    background: url(/images/spaceBG.jpg) 50% 0 no-repeat fixed;
-    min-height: 550px;
+    background: url(/images/spaceBG.jpg) 50% 100% no-repeat fixed;
+    height: 550px;
     margin: 0 auto;
     padding: 0;
 

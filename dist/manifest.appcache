@@ -1,7 +1,23 @@
-# [object Object] (undefined, #undefined)
+TypeError: 'undefined' is not a function (evaluating '$("#nav a").tooltip({placement:"left"})')
+
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1 in each
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
 CACHE MANIFEST
 
-# Time: Thu Jan 10 2013 01:50:11 GMT-0500 (EST)
+# Time: Fri Jan 11 2013 11:34:58 GMT-0500 (EST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -27,23 +43,24 @@ http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
 http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js
 http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js
 http://connect.facebook.net/en_US/all.js#xfbml=1&appId=152086601530572
-http://localhost:3501/images/3eb46442.spaceBG.jpg
-http://localhost:3501/images/4ef0d270.profileBG.jpg
+http://localhost:3501/images/29eb9c37.landingBG.jpg
+http://localhost:3501/images/48eaee6c.profileBG.jpg
 http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
+http://localhost:3501/images/60f5d2a6.spaceBG.jpg
 http://localhost:3501/images/661913e4.facebook_icon.png
-http://localhost:3501/images/82768978.gameBG.jpg
-http://localhost:3501/images/8c6090a4.landingBG.jpg
-http://localhost:3501/images/94f784c3.rankingsBG.jpg
+http://localhost:3501/images/98e22f7d.rankingsBG.jpg
 http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
+http://localhost:3501/images/d1a01ff7.gameBG.jpg
 http://vjs.zencdn.net/c/video-js.css
 http://vjs.zencdn.net/c/video.js
 http://www.google-analytics.com/ga.js
 http://www.parsecdn.com/js/parse-1.1.15.min.js
 images/e65ce544.dot.png
 scripts/4d8cbeee.amd-app.js
+scripts/vendor/8bc61845.jquery.min.js
 scripts/vendor/cf69c6f2.modernizr.min.js
 scripts/vendor/fd237d66.jquery.parallax-1.1.3.js
-styles/333dd5d1.main.css
+styles/35b7f361.main.css
 
 NETWORK:
 *

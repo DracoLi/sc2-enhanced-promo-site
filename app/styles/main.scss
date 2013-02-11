@@ -99,6 +99,21 @@ p {
     }
 }
 
+.app-store {
+    -webkit-transition: opacity .3s linear;
+    -moz-transition: opacity .3s linear;
+    -ms-transition: opacity .3s linear;
+    -o-transition: opacity .3s linear;
+    transition: opacity .3s linear;
+    opacity: 0.80;
+    filter: alpha(opacity=80);
+
+    &:hover {
+        filter: alpha(opacity=70);
+        opacity: 0.70;
+    }
+}
+
 .background {
     box-shadow: 0px 0px 35px 10px #140E9C;
     overflow: hidden;
@@ -128,6 +143,24 @@ p {
 
     .vid {
         margin: 0 auto;
+    }
+
+    .app-store {
+        position: relative;
+        top: -150px;
+        width: 400px;
+        margin: 0 auto;
+        left: 380px;
+        -webkit-transition: opacity .3s linear;
+        -moz-transition: opacity .3s linear;
+        -ms-transition: opacity .3s linear;
+        -o-transition: opacity .3s linear;
+        transition: opacity .3s linear;
+
+        &:hover {
+            filter: alpha(opacity=75);
+            opacity: 0.75;
+        }
     }
 }
 
@@ -287,6 +320,10 @@ p {
 
     .buy-content {
         margin-left: 80px;
+    }
+
+    .app-store {
+
     }
 }
 

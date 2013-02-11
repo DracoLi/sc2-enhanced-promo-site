@@ -1,23 +1,7 @@
-TypeError: 'undefined' is not a function (evaluating '$("#nav a").tooltip({placement:"left"})')
-
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1 in each
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
-  http://localhost:3501/scripts/4d8cbeee.amd-app.js:1
+# [object Object] (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Fri Jan 11 2013 11:34:58 GMT-0500 (EST)
+# Time: Mon Jan 28 2013 00:09:36 GMT-0500 (EST)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -38,6 +22,7 @@ CACHE MANIFEST
 #  configFile: /usr/local/share/npm/lib/node_modules/yeoman/lib/support/confess.json
 
 CACHE:
+/images/85758d60.app-store.png
 /images/fed18237.black-iphone.png
 http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
 http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js
@@ -57,10 +42,9 @@ http://www.google-analytics.com/ga.js
 http://www.parsecdn.com/js/parse-1.1.15.min.js
 images/e65ce544.dot.png
 scripts/4d8cbeee.amd-app.js
-scripts/vendor/8bc61845.jquery.min.js
 scripts/vendor/cf69c6f2.modernizr.min.js
 scripts/vendor/fd237d66.jquery.parallax-1.1.3.js
-styles/35b7f361.main.css
+styles/2f94fa13.main.css
 
 NETWORK:
 *

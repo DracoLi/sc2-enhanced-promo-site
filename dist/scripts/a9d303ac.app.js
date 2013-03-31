@@ -2,10 +2,12 @@
 
   define([], function() {
     var NotifyEmail, re;
-    $('#landing').parallax("50%", 1);
-    $('#game').parallax("50%", 0.1);
-    $('#profile').parallax("50%", 0.1);
-    $('#rankings').parallax("50%", 0.1);
+    if (!jQuery.browser.mobile) {
+      $('#landing').parallax("50%", 1);
+      $('#game').parallax("50%", 0.1);
+      $('#profile').parallax("50%", 0.1);
+      $('#rankings').parallax("50%", 0.1);
+    }
     $('#nav a').tooltip({
       placement: 'left'
     });

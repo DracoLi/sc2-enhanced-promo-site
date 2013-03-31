@@ -2,6 +2,7 @@
 
 body {
     background-color: #0c142b;
+    min-width: 545px;
 }
 
 h1 {
@@ -240,7 +241,7 @@ p {
 
 #buy {
     background: url(/images/spaceBG.jpg) 50% 100% no-repeat fixed;
-    height: 550px;
+    min-height: 550px;
     margin: 0 auto;
     padding: 0;
 
@@ -295,6 +296,8 @@ p {
 
     .feature-list {
         text-align: left;
+        margin-right: 30px;
+        margin-left: 20px;
 
         h2 { font-size: 30px; }
         ul {
@@ -319,7 +322,7 @@ p {
     }
 
     .buy-content {
-        margin-left: 80px;
+        margin-left: 25px;
     }
 
     .app-store {

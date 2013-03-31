@@ -1,7 +1,7 @@
 # [object Object] (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Mon Jan 28 2013 00:09:36 GMT-0500 (EST)
+# Time: Sun Mar 31 2013 00:57:28 GMT-0400 (EDT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -41,10 +41,11 @@ http://vjs.zencdn.net/c/video.js
 http://www.google-analytics.com/ga.js
 http://www.parsecdn.com/js/parse-1.1.15.min.js
 images/e65ce544.dot.png
-scripts/4d8cbeee.amd-app.js
+scripts/fce57bac.amd-app.js
 scripts/vendor/cf69c6f2.modernizr.min.js
+scripts/vendor/eb87dd0f.detectmobilebrowser.js
 scripts/vendor/fd237d66.jquery.parallax-1.1.3.js
-styles/2f94fa13.main.css
+styles/a5c08d73.main.css
 
 NETWORK:
 *

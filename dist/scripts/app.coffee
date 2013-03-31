@@ -1,9 +1,10 @@
 define [], ->
-    # Set up parallax
-    $('#landing').parallax "50%", 1
-    $('#game').parallax "50%", 0.1
-    $('#profile').parallax "50%", 0.1
-    $('#rankings').parallax "50%", 0.1
+    if !jQuery.browser.mobile
+        # Set up parallax if not mobile
+        $('#landing').parallax "50%", 1
+        $('#game').parallax "50%", 0.1
+        $('#profile').parallax "50%", 0.1
+        $('#rankings').parallax "50%", 0.1
 
     # Set up navigation
     $('#nav a').tooltip

@@ -1,7 +1,8 @@
 # [object Object] (undefined, #undefined)
+# Given URL is not allowed by the Application configuration.: One or more of the given URLs is not allowed by the App's settings.  It must match the Website URL or Canvas URL, or the domain must be a subdomain of one of the App's domains. (undefined, #undefined)
 CACHE MANIFEST
 
-# Time: Sun Mar 31 2013 00:57:28 GMT-0400 (EDT)
+# Time: Wed Apr 03 2013 15:44:03 GMT-0400 (EDT)
 # This manifest was created by confess.js, http://github.com/jamesgpearce/confess
 #
 # Retrieved URL: http://localhost:3501/
@@ -28,6 +29,8 @@ http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js
 http://cdn.mxpnl.com/libs/mixpanel-2.2.min.js
 http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.2.2/bootstrap.min.js
 http://connect.facebook.net/en_US/all.js#xfbml=1&appId=152086601530572
+http://d1l6p2sc9645hc.cloudfront.net/tracker.js
+http://data.gosquared.com/pv?a=GSN-230772-A&cs=UTF-8&cd=32&fl=-&je=0&la=en-ca&sw=1440&sh=900&dm=localhost&pa=%2F&pt=SC2%20Enhanced%20HD%20%7C%20The%20Missing%20StarCraft%202%20App&pr=http%3A&po=3501&pl=0&tl=513&ri=0&ru=-&ui=1624944204&re=0&vi=1&pv=1&lv=0&vw=400&vh=300&dw=545&dh=4584&st=0&sl=0&tv=4.0&bs=100110011101111
 http://localhost:3501/images/29eb9c37.landingBG.jpg
 http://localhost:3501/images/48eaee6c.profileBG.jpg
 http://localhost:3501/images/5d462625.glyphicons-halflings-white.png
@@ -36,6 +39,15 @@ http://localhost:3501/images/661913e4.facebook_icon.png
 http://localhost:3501/images/98e22f7d.rankingsBG.jpg
 http://localhost:3501/images/9cc6609b.glyphicons-halflings.png
 http://localhost:3501/images/d1a01ff7.gameBG.jpg
+http://static.ak.fbcdn.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yH/r/eIpbnVKI9lR.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yL/r/FGFbc80dUKj.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yU/r/bSOHtKbCGYI.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yX/r/i_oIVTKMYsL.png
+http://static.ak.fbcdn.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif
+http://static.ak.fbcdn.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png
+http://static.ak.fbcdn.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png
 http://vjs.zencdn.net/c/video-js.css
 http://vjs.zencdn.net/c/video.js
 http://www.google-analytics.com/ga.js
